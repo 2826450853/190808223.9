@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>实验8-1</title>
+    <style>
+        form{
+            width:700px;
+            height:880px;
+            background-color: black;
+            margin: auto;
+        }
+        td,th{
+			display:table-cell;
+            border-spacing: 50px;
+			height: 55px;
+        }
+        table{
+            border-color:white;
+			border-collapse: collapse;
+			margin:auto;
+        }
+        label{
+            color: azure;
+        }
+
+
+    </style>
+</head>
+<body>
+<form>
+	<h2 style="color:white;font-size: 20px;text-align: center;">增加货物信息</h2>
+<fieldset style="height: 150px;margin-left:20px; 20px;margin-right: 20px;margin-bottom: 40px">
+<legend><p style="color: white">发货单</p></legend>
+<table border="0">
+	<tbody>
+    <tr>
+        <td>
+            <label>发货：</label><input type="text">
+        </td>
+        <td>
+            <label>地址：</label><input type="text">
+        </td>
+    </tr>
+
+   <tr>
+        <td>
+            <label>电话：</label><input type="text">
+        </td>
+        <td>
+            <label>邮编：</label><input type="text">
+        </td>
+    </tr>
+	</tbody>
+    </table>
+	</fieldset>
+	<fieldset style="height: 320px;margin-left: 20px;margin-right: 20px;margin-bottom: 40px;">
+	<legend><p style="color: white">收货单</p></legend>
+    <table border="0">
+    <tr>
+        <td>
+			<label>收货:</label><input type="text">
+        </td>
+        <td>
+			<label>地址:</label><input type="text">
+        </td>
+    </tr>
+
+   <tr>
+        <td>
+			<label>电话:</label><input type="text">
+        </td>
+        <td>
+			<label>邮编:</label><input type="text">
+        </td>
+    </tr>
+     <tr>
+        <td colspan="3">
+			<label>地区:</label>
+			<select style="width: 200px">
+				<option value="bj"selected>北京</option>
+				<option value="tj">天津</option>
+				<option value="hb">河北</option>
+				<option value="hn">河南</option>
+				<option value="zj">浙江</option>
+				<option value="js">江苏</option>
+			</select>
+        </td>
+    </tr>
+     <tr>
+        <td colspan="3">
+			<label>包装:</label>
+			<input type="checkbox" ><label>纸箱</label>
+			<input type="checkbox" ><label>木箱</label>
+			<input type="checkbox" ><label>快递袋</label>
+			<input type="checkbox" ><label>其他</label>
+        </td>
+    </tr>
+     <tr>
+        <td  colspan="3">
+			<label>包装:</label>
+			<input type="radio"><label>现金</label>
+			<input type="radio"><label>支付宝</label>
+			<input type="radio"><label>银行</label>
+			<input type="radio"><label>ATM</label>
+        </td>
+    </tr>
+    </table>
+		</fieldset>
+<fieldset style="height: 150px;margin-left:20px; 20px;margin-right: 20px;margin-bottom: 40px">
+		<legend><p style="color: white">货物信息</p></legend>
+        <table border="0">
+    <tr>
+        <td colspan="5">
+			<label style="margin-left: 1px;">货物名称:</label><input type="text" style="width: 590px;height: 25px;">
+		</td>
+    </tr>
+
+    <tr>
+        <td>
+			<label>数量:  </label><input type="text" style="width: 40px">
+        </td>
+		<td>
+		<label>重量:  </label><input type="text" style="width: 40px">
+		</td>
+		<td>
+		<label>发货时间:  </label><input type="text" style="width: 100px">
+		</td>
+    </tr>
+        </table>
+		</fieldset>
+	<button style="margin-left: 300px">确定</button><button>取消</button>
+
+
+
+
+</form>
+</body>
+</html>

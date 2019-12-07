@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-size:16px;
+	color:red;
+	text-indent:0px;
+	font-family:'楷体';
+}
+#h1{text-align:center;
+font-family:'楷体';
+font-size:20px;
+coloar:red;}
+#.nav{background-color: #9F0;
+margin-left: 15%;
+margin-right: 15%;
+text-align:center;
+font-size: 18px;}
+.copyright{text-align:center;
+	margin-bottom: 10px;}
+#tri{width: 0;
+	height: 0;
+	border:10px solid transparent;
+	border-top-color: brown;
+}
+#body{background: #EEE}
+#div{width:380px;
+	margin:50px auto;
+	padding:20px;
+	background: #FFF;
+}
+#ul{padding: 20px;
+	border: 1px solid #CCC;
+}
+#li{height: 30px;
+	list-style-image: url("image/disc.jpg");
+	font-size: 14px;
+	color: #122E67;
+	line-height: 30px;
+	border-bottom: 1px dotted #DDD;
+}
+p{
+font-family:'楷体';
+font-size:20px;
+coloar:red;
+text-indent: 2em;}
